@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="text-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image1" />
+            <h1 class="heading1">My Projects</h1>
+            <p class="para1">These are few of my Static Website projects that I have developed using HTML,CSS and bootstrap</p>
+        </div>
+        <div class=" image9-cont d-flex flex-row text-center">
+            <div onclick="display('section2')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image9" />
+            </div>
+            <div onclick="display('section3')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image9" />
+            </div>
+        </div>
+        <div class="image9-cont d-flex flex-row text-cente">
+            <div onclick="display('section4')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image9" />
+            </div>
+            <div onclick="display('section5')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image9" />
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="bg-container2 d-flex flex-column justify-content-end">
+            <div class="card-container2">
+                <h1 class="heading2">Advanced Technologies</h1>
+                <p class="para2"> Machinery and equipment developement from the application of scientific knowledge.</p>
+                <div class="text-center">
+                    <button class="button01">Learn more</button>
+                    <button class="button2">Save Draft</button>
+                </div>
+                <div class="bro text-center">
+                    <button class="btn btn-primary" onclick="display('section1')">back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('section1')">back</button>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="bg-container4 d-flex flex-column justify-content-end">
+            <div class="card-container4 ">
+                <h1 class="heading4">Happy Meals</h1>
+                <p class="para4">Discover the best foods over the 1,000 restaurants</p>
+                <button class="button4" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section5">
+        <div class="bg-container5 d-flex flex-column justify-content-end">
+            <div class="card-container5">
+                <h1 class="heading5">NEWS OF THE DAY</h1>
+                <p class="para5">All educational institutions in Assam to reopen from November 2</p>
+                <p class="para05">Uttar Pradesh's Gautam nagar recorded 107 new Covid-19 cases on Saturday,pushing the district's infection tall to 15,803,official data showed.The number of
+                    active cases came down further to 1384 from 1477 on Friday and 1523 on Thursday,according
+                    to the data released by the UP Health Deparment for a 24-hour period.</p>
+                <button class="button5" onclick="display('section1')">back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
