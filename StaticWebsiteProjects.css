@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image1 {
+    height: 50vh;
+}
+
+.heading1 {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 35px;
+}
+
+.para1 {
+    color: #616e7c;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.image9 {
+    height: 30vh;
+    width: 30vh;
+    padding: 15px;
+}
+
+.image9-cont {
+    margin: 15px;
+    padding-left: 70px;
+}
+
+.bg-container2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    background-size: cover;
+    height: 200vh;
+}
+
+.card-container2 {
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+}
+
+.heading2 {
+    font-family: "Bree Serif";
+    color: #5752ab;
+
+}
+
+.para2 {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-weight: bold;
+
+}
+
+.button01 {
+    background-color: #ffffff;
+    height: 50px;
+    width: 120px;
+    color: #171f46;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-width: 2px;
+    margin-right: 5px;
+    border-color: #d7dfe9;
+    font-weight: 500;
+}
+
+.button2 {
+    background-color: #5752ab;
+    height: 50px;
+    width: 120px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-width: 0px;
+    margin-left: 5px;
+}
+
+.bro {
+    margin: 15px;
+}
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bg-container4 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+    height: 200vh;
+    background-size: cover;
+}
+
+.card-container4 {
+    background-color: #f6c56e;
+    color: #323f4b;
+    padding: 30px;
+    border-top-left-radius: 25px;
+
+}
+
+.heading4 {
+    font-family: "Bree Serif";
+    font-size: 30px;
+}
+
+.para4 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.button4 {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 12px;
+    font-family: "Roboto";
+    color: black;
+    border-width: 0px;
+    border-radius: 8px;
+    width: 120px;
+    height: 38px;
+}
+
+.bg-container5 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    background-size: cover;
+    height: 200vh;
+}
+
+.card-container5 {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 25px;
+}
+
+.heading5 {
+    color: #323f4b;
+    font-size: 11px;
+
+}
+
+.para5 {
+    color: #323f4b;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.para05 {
+    color: #7b8794;
+    font-size: 15px;
+}
+
+.button5 {
+    color: #ffffff;
+    background-color: #323f4b;
+    border-radius: 8px;
+    border-width: 0px;
+    height: 38px;
+    width: 120px;
+}
